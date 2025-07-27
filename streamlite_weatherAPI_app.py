@@ -1,8 +1,8 @@
 import streamlit as st
 import requests
-from bs4 import BeautifulSoup
+#from bs4 import BeautifulSoup
 import time
-from openai import OpenAI
+#from openai import OpenAI
 
 
 # --- Configuration ---
