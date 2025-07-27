@@ -18,7 +18,7 @@ try:
     OPENWEATHER_API_KEY = st.secrets["OPENWEATHER_API_KEY"]
 except KeyError:
     st.error("OpenWeatherMap API key not found. "
-             "Please set it in .streamlitweather/secrets.toml or Streamlit Cloud secrets.")
+             "Please set it in .streamlit/secrets.toml or Streamlit Cloud secrets.")
     st.stop() # Stop the app if the key is not found
 
 BASE_URL = "http://api.openweathermap.org/data/2.5/weather?"
